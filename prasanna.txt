@@ -1,0 +1,50 @@
+2.create a program weather a program whether a number is divisible by 2,3 and 5
+BEGIN
+    PROMPT "Enter a number" and STORE IN num
+    IF(num%2==0 )
+        Display " Divisible by 2"
+    IF(num%3==0)
+        Display "divisible by 3"
+     ELSE
+    end if
+2.BEGIN
+    DECLARE age as INTEGER
+    PROMPT "enter age" and store in age
+    IF(age<=18) then
+        display " eligible  vote"
+    ELSEIF(age>= 60)
+        display "senior citizen"
+    ELSE(age>=18 && age<=60)
+        display " you are eligible for vote
+    EndIF
+END
+3.BEGIN
+    DECLARE num as INTEGER
+    PROMPT"Enter a num" and Store in num
+    WHILE(num<=5)
+    DISPLAY "num"
+    num=num+1
+    END WHILE
+END
+4.BEGIN
+    for num=1 to 10
+        if (num%2=0)
+            DISPLAY "even number"
+        else
+            DISPLAY "odd number"
+        ENDIF
+    END FOR
+END
+5.Begin
+  Declare numbers[5] As Integer Array
+  For index =0 to 4
+      Accept numbers[index]
+   ENDFOR
+   For Index=0 to 4
+      IF(numbers[index]%1==0)
+        Display number[index]  "Prime number"
+      ELSE
+       Display number[index] "not a Prime number"
+      ENDIF
+   ENDFOR
+END
